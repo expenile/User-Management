@@ -1,17 +1,25 @@
 {
   "name": "crud-with-ejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "User Management System with EJS views",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
+  "keywords": ["nodejs", "express", "ejs", "mongodb", "crud"],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "mongoose": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
